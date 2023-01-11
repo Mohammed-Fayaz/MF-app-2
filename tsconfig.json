@@ -11,7 +11,8 @@
         "checkJs": true,
         "baseUrl": "./src",
         "paths": {
-            "shared": ["./shared"]
+            "shared": ["./shared"],
+            "*": ["./@mf-types/*"]
         },
         "esModuleInterop": true,
         "skipLibCheck": true,
